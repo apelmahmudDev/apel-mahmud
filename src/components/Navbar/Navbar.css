@@ -1,0 +1,21 @@
+.navbar {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #DADADA !important;
+}
+
+.nav-link {
+   font-weight: bold;
+   margin-right: 30px;
+   color: #DADADA !important;
+   transition: all 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+   color: #acaaaa !important;
+}

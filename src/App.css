@@ -1,0 +1,31 @@
+.card {
+    border: none;
+    background: #364F6B;
+}
+
+.line-dash {
+    height: 2px;
+    width: 50px;
+    background: #FFFFFF
+}
+
+.page-title {
+    display: flex;
+    align-items: center;
+}
+
+.brand-bg-primary {
+    background: #233142;
+}
+
+.brand-bg-secondary {
+    background: #364F6B;
+}
+
+.brand-text-primary {
+    color: #FFFFFF;
+}
+
+.brand-text-secondary {
+    color: #FE3E57;
+}

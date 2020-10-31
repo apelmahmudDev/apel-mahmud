@@ -1,0 +1,31 @@
+.card-footer {
+    border: none;
+    background: none;
+}
+
+.card-btn-container {
+    text-align: right;
+    border-top: 2px solid #FFFFFF;
+}
+
+.card-btn {
+    margin-right: 5px;
+    padding: 5px;
+    height: 40px;
+    width: 40px;
+    box-shadow: none !important;
+}
+
+.card-btn-icon {
+    color: #FFFFFF;
+    font-size: 23px;
+    transition: all 0.3s ease;
+}
+
+.card-btn-icon:hover {
+    color: #00CF5D;
+}
+
+.link-btn:focus {
+    box-shadow: none;
+}

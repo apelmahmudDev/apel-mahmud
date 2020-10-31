@@ -1,0 +1,23 @@
+.social-icon {
+    font-size: 2em;
+    margin-right: 20px;
+}
+
+.social-icon:hover {
+    color: #ddd;
+}
+
+.technology {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.technology span{
+    border-radius: 3px;
+    background: #364F6B;
+    padding: 2px 10px;
+    margin-right: 5px;
+    margin-top: 5px;
+    height: 26px;
+    font-size: 14px;
+}

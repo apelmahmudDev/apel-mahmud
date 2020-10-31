@@ -1,0 +1,27 @@
+.home-height {
+    height: 100vh;
+}
+
+.touch-btn {
+    border: 2px solid #FE3E57;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    letter-spacing: 3px;
+}
+
+.active-touch-btn{
+    margin-right: 20px;
+    background: #FE3E57;
+    color: #FFFFFF;
+}
+
+.touch-btn:hover {
+    background: #FE3E57;
+    color: #FFFFFF;
+}
+
+.self-name {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}

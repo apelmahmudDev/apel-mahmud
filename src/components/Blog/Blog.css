@@ -1,0 +1,20 @@
+.card {
+    position: relative;
+    overflow: hidden;
+    z-index: 5;
+}
+
+.blog-number {
+    /* background: orange; */
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    z-index: -5;
+}
+
+.card img {
+    z-index: 5;
+}
