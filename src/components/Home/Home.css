@@ -1,9 +1,19 @@
 .home-height {
-    height: 100vh;
+    height: 90vh;
+}
+
+.home-list {
+    display: flex;
+    padding-left: 15px;
+    font-size: 16px;
+}
+
+.home-list li {
+    margin-right: 35px;
 }
 
 .touch-btn {
-    border: 2px solid #FE3E57;
+    border: 2px solid #00CF5D;
     font-weight: 500;
     text-transform: uppercase;
     color: #FFFFFF;
@@ -12,16 +22,16 @@
 
 .active-touch-btn{
     margin-right: 20px;
-    background: #FE3E57;
+    background: #00CF5D;
     color: #FFFFFF;
 }
 
 .touch-btn:hover {
-    background: #FE3E57;
+    background: #00CF5D;
     color: #FFFFFF;
 }
 
 .self-name {
+    font-size: 4em;
     letter-spacing: 2px;
-    text-transform: uppercase;
 }
