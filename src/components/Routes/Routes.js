@@ -1,11 +1,11 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
-import Home from '../Home/Home';
 import About from '../About/About';
 import Navbar from '../Navbar/Navbar';
 import Contact from '../Contact/Contact';
 import Portfolios from '../Portfolios/Portfolios';
 import Blogs from '../Blogs/Blogs';
+import Home from '../Home/Home';
 
 const Routes = () => {
 	return (

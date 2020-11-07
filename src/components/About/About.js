@@ -42,10 +42,7 @@ const About = () => {
 							<div className="line-dash ml-2"></div>
 						</div>
 						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
-							omnis inventore esse voluptas nulla iusto nesciunt ut non sit,
-							mollitia quibusdam, sequi quae beatae vitae dolorem doloribus
-							suscipit commodi. Ex.
+							I work fluently with HTML5, CSS3, Bootstrap, JavaScript, and ES6. I use react.js to develop the front end part of the website and use node.js, express.js and MongoDB to Backend.
 						</p>
 						<div className="social-link">
 							<Link to="/">

@@ -28,10 +28,10 @@ const Blog = ({ blog }) => {
 							<FontAwesomeIcon icon={faCalendarAlt} />
 							<span> {blog.date}</span>
 						</p>
-						<strong>
+						<a href={blog.link} target="_blank" rel="noopener noreferrer" className="text-light">
 							<span>Read More </span>
 							<FontAwesomeIcon icon={faPlus} />
-						</strong>
+						</a>
 					</div>
 					<div className={`blog-number ${blog.color}`}>
 						<h2 className="mt-3 ml-2">0{blog.number}</h2>

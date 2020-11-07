@@ -1,0 +1,76 @@
+.home-height {
+    height: 90vh;
+}
+
+.home-list {
+    display: flex;
+    padding-left: 15px;
+    font-size: 16px;
+}
+
+.home-list li {
+    margin-right: 35px;
+}
+
+.touch-btn {
+    border: 2px solid #00CF5D;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    letter-spacing: 3px;
+}
+
+.active-touch-btn{
+    margin-right: 20px;
+    background: #00CF5D;
+    color: #FFFFFF;
+}
+
+.touch-btn:hover {
+    background: #00CF5D;
+    color: #FFFFFF;
+}
+
+.self-name {
+    font-size: 4em;
+    letter-spacing: 2px;
+}
+
+.home-right-section {
+    text-align: right;
+}
+
+
+
+/* RESPONSIVE */
+@media screen and (max-width: 767px){
+    .home-right-section {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 315px){
+    .touch-btn {
+       margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 478px){
+    .self-name {
+        font-size: 3em;
+    }
+}
+
+@media screen and (max-width: 372px){
+    .greet {
+        font-size: 1.5em;
+    }
+
+    .self-name {
+        font-size: 2em;
+    }
+
+    .developer-intro {
+        font-size: 1.5em;
+    }
+}

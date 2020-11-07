@@ -60,7 +60,15 @@ const Portfolios = () => {
             website: 'https://amazon-clone1.netlify.app/',
             gitHubLink: 'https://github.com/apelmahmudDev/amazon-clone',
         },
-
+        {
+            id: 7,
+            name: 'Awesome Portfolio',
+            description: '',
+            applied: ['HTML', 'CSS', 'Bootstrap'],
+            img: 'https://i.imgur.com/tpOzCJu.png',
+            website: 'https://apelmahmuddev.github.io/project2-Portfolio-/',
+            gitHubLink: 'https://github.com/apelmahmudDev/project2-Portfolio-',
+        },
     ];
 
     return (

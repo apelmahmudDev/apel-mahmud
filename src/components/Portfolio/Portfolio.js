@@ -13,7 +13,7 @@ const Portfolio = ({project}) => {
 
 	return (
 		<div className="col mb-4" style={{fontSize:'14px'}}>
-			<div className="card h-100">
+			<div className="card h-100 portfolio-card">
 				<img src={project.img} className="card-img-top" alt="project" />
 				<div className="card-body">
 					<h5 className="card-title">{project.name}</h5>

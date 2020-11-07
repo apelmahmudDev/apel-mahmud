@@ -11,7 +11,7 @@ const Blogs = () => {
 			img: 'https://miro.medium.com/max/875/1*OKCuASS6btoN8CMkHDyeTQ.jpeg',
 			author: 'Apel Mahmud',
 			date: '23 Jul 2020',
-			link: 'blank',
+			link: 'https://medium.com/@apelmahmudDev/getting-started-with-react-router-cba5fff59b0c?sk=c22aa2fbc9f9109b546b798594a06d66',
 			color: 'bg-primary',
 		},
 		{
@@ -21,7 +21,7 @@ const Blogs = () => {
 			img: 'https://miro.medium.com/max/875/1*duT8VkGS-rbBI8Fgx8dNZw.jpeg',
 			author: 'Apel Mahmud',
 			date: '24 Jul 2020',
-			link: 'blank',
+			link: 'https://medium.com/@apelmahmudDev/use-firebase-with-react-983eca2a162b?sk=4ff1644f524f7c924143cec5698d5839',
 			color: 'bg-success',
 		},
 	];
