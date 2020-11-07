@@ -10,62 +10,46 @@ import {
 import { Link } from 'react-router-dom';
 
 const About = () => {
-    const intros = [
-        {
-            img: selfImage,
-            name: 'Apel Mahmud',
-            title: 'A Frontend Developer',
-            greeting: `Hello, I'm`,
-            description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae eos modi odit in neque temporibus obcaecati repellat sint! Eligendi dicta sed mollitia repellat fugiat harum laborum eaque assumenda eius animi?',
-            icons: [faLinkedinIn, faGithub, faFacebookF],
-            linkedin: 'blank',
-            github: 'blank',
-            facebook: 'blank',
-            linkedinIcon: faLinkedinIn,
-            githubIcon: 'blank',
-            facebookIcon: 'blank',
-        }
-    ]
 	return (
-		<div className="container">
+		<div className="container about-wrapper mt-4 ">
 			<div className="row">
 				<div className="col-md-6">
-					<div className="introduce-container">
-						<img src={selfImage} alt="" className="w-50" />
-						<div className="page-title">
-							<div className="line-dash mr-2"></div>
-							<h6>Hello, I'm</h6>
+					<div className="">
+						<div className="intro-img intro-img">
+							<img src={selfImage} alt="" className="w-50" />
 						</div>
-						<h2 className="font-weight-bold">Apel Mahmud</h2>
-						<div className="page-title">
-							<h6>A Frontend Developer</h6>
-							<div className="line-dash ml-2"></div>
+						<div className="my-4">
+							<h6 className="brand-text-success">Hello, I'm</h6>
+							<h2 className="font-weight-bold">Apel Mahmud</h2>
+							<h6 className="brand-text-success">A Frontend Developer</h6>
 						</div>
 						<p>
-							I work fluently with HTML5, CSS3, Bootstrap, JavaScript, and ES6. I use react.js to develop the front end part of the website and use node.js, express.js and MongoDB to Backend.
+							I work fluently with HTML5, CSS3, Bootstrap, JavaScript, and ES6.
+							I use react.js to develop the fr 2ont end part of the website and
+							use node.js, express.js and MongoDB to Backend.
 						</p>
-						<div className="social-link">
-							<Link to="/">
+						<div className="social-link mt-4">
+							<a href="https://www.linkedin.com/in/apelmahmuddev/" target="_blank" rel="noopener noreferrer">
 								<div className="social-item">
 									<FontAwesomeIcon
 										className="social-icon"
 										icon={faLinkedinIn}
 									/>
 								</div>
-							</Link>
-							<Link to="/">
+							</a>
+							<a href="https://github.com/apelmahmudDev" target="_blank" rel="noopener noreferrer">
 								<div className="social-item">
 									<FontAwesomeIcon
 										className="social-icon likedin"
 										icon={faGithub}
 									/>
 								</div>
-							</Link>
-							<Link to="/">
+							</a>
+							<a href="https://web.facebook.com/apelmahmudDev/" target="_blank" rel="noopener noreferrer">
 								<div className="social-item">
 									<FontAwesomeIcon className="social-icon" icon={faFacebookF} />
 								</div>
-							</Link>
+							</a>
 						</div>
 					</div>
 				</div>

@@ -38,3 +38,19 @@
     height: 26px;
     font-size: 14px;
 }
+
+
+/* RESPONSIVE */
+@media screen and (max-width: 767px){
+    .about-wrapper {
+        text-align: center;
+    }
+
+    .social-link {
+        justify-content: center;
+    } 
+    
+    .skills-part-one {
+        margin-top: 10%;
+    }
+}

@@ -19,7 +19,7 @@ const Blog = ({ blog }) => {
 						<h5 className="card-title text-warning">{blog.title}</h5>
 						<p>{blog.description}</p>
 					</div>
-					<div className="d-flex justify-content-between card-footer">
+					<div className="d-flex flex-wrap justify-content-between card-footer">
 						<p>
 							<FontAwesomeIcon icon={faUserCircle} />
 							<span> By {blog.author}</span>
@@ -28,7 +28,12 @@ const Blog = ({ blog }) => {
 							<FontAwesomeIcon icon={faCalendarAlt} />
 							<span> {blog.date}</span>
 						</p>
-						<a href={blog.link} target="_blank" rel="noopener noreferrer" className="text-light">
+						<a
+							href={blog.link}
+							target="_blank"
+							rel="noopener noreferrer"
+							className="text-light"
+						>
 							<span>Read More </span>
 							<FontAwesomeIcon icon={faPlus} />
 						</a>

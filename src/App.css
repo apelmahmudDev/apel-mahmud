@@ -3,17 +3,6 @@
     background: #07617D;
 }
 
-.line-dash {
-    height: 2px;
-    width: 50px;
-    background: #FFFFFF
-}
-
-.page-title {
-    display: flex;
-    align-items: center;
-}
-
 .brand-bg-primary {
     background: #233142;
 }
