@@ -14,3 +14,17 @@
 .nav-link:hover {
    color: #acaaaa !important;
 }
+
+.resume {
+   border: 1px solid #00CF5D;
+   border-radius: 5px;
+   padding: 5px;
+}
+
+
+@media screen and (max-width: 991px){
+   .navbar-collapse {
+      text-align: center;
+      margin-bottom: 10%;
+   }
+}

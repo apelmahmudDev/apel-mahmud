@@ -2,10 +2,10 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
-import { useState } from 'react';
+// import { useState } from 'react';
 
 const Portfolio = ({project}) => {
-	const [isToggle, setIsToggle] = useState(false);
+	// const [isToggle, setIsToggle] = useState(false);
 
 	// const handleToggle = () => {
 	// 	setIsToggle(!isToggle);

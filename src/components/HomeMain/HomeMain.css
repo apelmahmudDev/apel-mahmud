@@ -43,9 +43,24 @@
 
 
 /* RESPONSIVE */
+
+@media screen and (max-width: 991px){
+    .self-name {
+        font-size: 2.8em;
+    }
+}
+
 @media screen and (max-width: 767px){
+    .home-left-section {
+        margin-top: 5%;
+    }
+
     .home-right-section {
         text-align: center;
+    }
+
+    .home-right-section img{
+        margin-top: 5%;
     }
 }
 
