@@ -18,13 +18,13 @@ const About = () => {
 							<img src={selfImage} alt="" className="w-50" />
 						</div>
 						<div className="my-4">
-							<h6 className="brand-text-success">Hello, I'm</h6>
+							<h6 className="brand-text-success">Hello! I'm</h6>
 							<h2 className="font-weight-bold">Apel Mahmud</h2>
 							<h6 className="brand-text-success">A Frontend Developer</h6>
 						</div>
 						<p>
 							I work fluently with HTML5, CSS3, Bootstrap, JavaScript, and ES6.
-							I use react.js to develop the fr 2ont end part of the website and
+							I use react.js to develop the front end part of the website and
 							use node.js, express.js and MongoDB to Backend.
 						</p>
 						<div className="social-link mt-4">
@@ -53,9 +53,8 @@ const About = () => {
 					</div>
 				</div>
 				<div className="col-md-6">
-					<div className="skills-part-one">
+					<div className="skills-part-container">
 						<h4>My Skills</h4>
-						<div className="line-dash"></div>
 						<div className="technology mt-3">
 							<span>HTML</span>
 							<span>CSS</span>

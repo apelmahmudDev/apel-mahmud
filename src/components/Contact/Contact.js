@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope,  faMapMarkerAlt, faPhoneAlt  } from '@fortawesome/free-solid-svg-icons';
 
 const Contact = () => {
-
+      
     const { register, handleSubmit, errors } = useForm();
     const onSubmit = data => console.log(data);
 

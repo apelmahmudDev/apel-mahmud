@@ -53,6 +53,12 @@
 @media screen and (max-width: 767px){
     .home-left-section {
         margin-top: 5%;
+        text-align: center;
+    }
+
+    .home-list {
+        display: flex;
+        justify-content: center;
     }
 
     .home-right-section {
@@ -61,12 +67,6 @@
 
     .home-right-section img{
         margin-top: 5%;
-    }
-}
-
-@media screen and (max-width: 315px){
-    .touch-btn {
-       margin-top: 10px;
     }
 }
 
@@ -87,5 +87,20 @@
 
     .developer-intro {
         font-size: 1.5em;
+    }
+}
+
+
+@media screen and (max-width: 315px){
+    .touch-btn {
+       margin-top: 10px;
+    }
+
+    .touch-btn {
+        letter-spacing: 1px;
+    }
+    
+    .active-touch-btn{
+        margin-right: 15px;
     }
 }

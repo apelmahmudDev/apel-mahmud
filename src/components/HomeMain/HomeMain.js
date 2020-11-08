@@ -10,17 +10,21 @@ const HomeMain = () => {
 				<div className="row d-flex align-items-center justify-content-center home-height">
 					<div className="col-md-6">
 						<div className="home-left-section">
-							<h3 className="brand-text-success font-weight-normal m-0 greet">
-								Hello, I'm
-							</h3>
-							<h1 className="self-name font-weight-bold">Apel Mahmud</h1>
-							<h3 className="brand-text-success developer-intro">
-								A Front End Developer
-							</h3>
-							<ul className="home-list">
-								<li>Web Devloper</li>
-							</ul>
-							<div className="mt-3">
+							<div>
+								<h3 className="brand-text-success font-weight-normal m-0 greet">
+									Hello! I'm
+								</h3>
+								<h1 className="self-name font-weight-bold">Apel Mahmud</h1>
+							</div>
+							<div className="mt-4">
+								<h3 className="brand-text-success developer-intro">
+									A Front End Developer
+								</h3>
+								<ul className="home-list">
+									<li>Web Devloper</li>
+								</ul>
+							</div>
+							<div className="mt-4">
 								<Link to="/contact">
 									<button className="btn touch-btn active-touch-btn">
 										Touch me

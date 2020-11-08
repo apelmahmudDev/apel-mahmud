@@ -50,7 +50,14 @@
         justify-content: center;
     } 
     
-    .skills-part-one {
+    .skills-part-container {
         margin-top: 10%;
+        margin-bottom: 10%;
     }
+}
+
+@media screen and (max-width: 315px){
+    .technology {
+        justify-content: center;
+    }    
 }

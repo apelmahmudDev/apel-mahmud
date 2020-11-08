@@ -1,12 +1,15 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './Navbar.css';
+import logo from '../../images/logo.png';
 
 const Navbar = () => {
     return (
         <div className="container">
             <nav className="navbar navbar-expand-lg navbar-dark bg-default">
-                <NavLink className="navbar-brand" to="/">A.</NavLink>
+                <NavLink className="navbar-brand" to="/">
+                    <img src={logo} alt="" className="w-50 img-fluid" />
+                </NavLink>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
@@ -17,7 +20,7 @@ const Navbar = () => {
                         <NavLink className="nav-link" to="/portfolio">Portfolio</NavLink>
                         <NavLink className="nav-link" to="/blog">Blog</NavLink>
                         <NavLink className="nav-link" to="/contact">Let's Talk</NavLink>
-                        <NavLink className="nav-link resume" to="/resume">Resume</NavLink>
+                        <a href="https://drive.google.com/uc?export=download&id=1kYFRU5KaEIo1oq4ptclDA6Ep5AgnTxLC" className="nav-link resume">Resume</a>
                     </div>
                 </div>
             </nav>
