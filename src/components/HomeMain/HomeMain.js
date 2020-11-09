@@ -9,7 +9,7 @@ const HomeMain = () => {
 			<div className="container">
 				<div className="row d-flex align-items-center justify-content-center home-height">
 					<div className="col-md-6">
-						<div className="home-left-section">
+						<div className="home-left-section" data-aos="fade-right" data-aos-duration="1000">
 							<div>
 								<h3 className="brand-text-success font-weight-normal m-0 greet">
 									Hello! I'm
@@ -37,7 +37,9 @@ const HomeMain = () => {
 						</div>
 					</div>
 					<div className="col-md-6 home-right-section">
-						<img src={selfImage} alt="" className="img-fluid w-75" />
+						<div data-aos="fade-left" data-aos-duration="1000">
+							<img src={selfImage} alt="" className="img-fluid w-75" />
+						</div>
 					</div>
 				</div>
 			</div>

@@ -118,10 +118,12 @@ const Portfolios = () => {
 	return (
 		<div className="container">
 			<h3 className="my-4">Portfolio</h3>
-			<div className="row row-cols-1 row-cols-md-3">
-				{projects.map((project) => (
-					<Portfolio project={project} key={project.id}></Portfolio>
-				))}
+			<div data-aos="fade-up" data-aos-duration="1000">
+				<div className="row row-cols-1 row-cols-md-3">
+					{projects.map((project) => (
+						<Portfolio project={project} key={project.id}></Portfolio>
+					))}
+				</div>
 			</div>
 		</div>
 	);

@@ -5,8 +5,8 @@ import logo from '../../images/logo.png';
 
 const Navbar = () => {
     return (
-        <div className="container">
-            <nav className="navbar navbar-expand-lg navbar-dark bg-default">
+        <nav className="navbar navbar-expand-lg navbar-dark bg-default shadow position-sticky sticky-top">
+            <div className="container">
                 <NavLink className="navbar-brand" to="/">
                     <img src={logo} alt="" className="w-50 img-fluid" />
                 </NavLink>
@@ -23,8 +23,8 @@ const Navbar = () => {
                         <a href="https://drive.google.com/uc?export=download&id=1kYFRU5KaEIo1oq4ptclDA6Ep5AgnTxLC" className="nav-link resume">Resume</a>
                     </div>
                 </div>
-            </nav>
-        </div>
+            </div>
+        </nav>
     );
 };
 

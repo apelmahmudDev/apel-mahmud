@@ -6,6 +6,7 @@ import Contact from '../Contact/Contact';
 import Portfolios from '../Portfolios/Portfolios';
 import Blogs from '../Blogs/Blogs';
 import Home from '../Home/Home';
+import Footer from '../Footer/Footer';
 
 const Routes = () => {
 	return (
@@ -22,6 +23,7 @@ const Routes = () => {
 					<h1>Not found the page</h1>
 				</Route>
 			</Switch>
+			<Footer></Footer>
 		</>
 	);
 };
