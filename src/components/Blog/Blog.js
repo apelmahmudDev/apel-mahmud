@@ -39,7 +39,7 @@ const Blog = ({ blog }) => {
 						</a>
 					</div>
 					<div className={`blog-number ${blog.color}`}>
-						<h2 className="mt-3 ml-2">0{blog.number}</h2>
+						<h2 className="mt-4 ml-2">0{blog.number}</h2>
 					</div>
 				</div>
 			</div>
