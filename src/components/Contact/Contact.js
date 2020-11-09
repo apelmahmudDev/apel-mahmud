@@ -17,16 +17,13 @@ const Contact = () => {
 		<div className="container">
 			<div className="text-center my-5">
 				<Typical
-					steps={[
-						'Let’s Talk',
-						1000,
-					]}
+					steps={['Let’s Talk', 1000]}
 					loop={Infinity}
-                    wrapper="h1"
-                    className="contact-title"
+					wrapper="h1"
+					className="contact-title"
 				/>
 			</div>
-			<div className="row" style={{ height: '100vh' }}>
+			<div className="row">
 				<div className="col-md-7">
 					<div className="form-area">
 						<h2 className="text-center">Get In Touch</h2>

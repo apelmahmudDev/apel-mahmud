@@ -56,7 +56,7 @@
     }
 }
 
-@media screen and (max-width: 315px){
+@media screen and (max-width: 576px){
     .technology {
         justify-content: center;
     }    
