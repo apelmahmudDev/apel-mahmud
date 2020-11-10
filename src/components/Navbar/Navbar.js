@@ -2,10 +2,12 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './Navbar.css';
 import logo from '../../images/logo.png';
+import Headroom from 'react-headroom';
 
 const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-lg navbar-dark bg-default shadow position-sticky sticky-top">
+        <Headroom>
+        <nav className="navbar navbar-expand-lg navbar-dark bg-default shadow">
             <div className="container">
                 <NavLink className="navbar-brand" to="/">
                     <img src={logo} alt="" className="w-50 img-fluid" />
@@ -25,6 +27,7 @@ const Navbar = () => {
                 </div>
             </div>
         </nav>
+        </Headroom>
     );
 };
 

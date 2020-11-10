@@ -1,6 +1,7 @@
 .card {
     border: none;
     background: #07617D;
+    z-index: -5 !important;
 }
 
 .brand-bg-primary {
