@@ -1,5 +1,5 @@
 .home-height {
-    height: 90vh;
+    height: 100vh;
 }
 
 .home-list {
@@ -51,6 +51,11 @@
 }
 
 @media screen and (max-width: 767px){
+    .home-height {
+        margin-top: 10%;
+        /* height: 100%; */
+    }
+
     .home-left-section {
         margin-top: 5%;
         text-align: center;
@@ -63,12 +68,14 @@
 
     .home-right-section {
         text-align: center;
+        /* margin-bottom: 200px; */
     }
 
-    .home-right-section img{
-        margin-top: 5%;
-    }
+    /* .home-right-section img{
+        margin-top: 10%;
+    } */
 }
+
 
 @media screen and (max-width: 478px){
     .self-name {

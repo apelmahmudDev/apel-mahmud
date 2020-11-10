@@ -2,7 +2,6 @@ import React from 'react';
 import './HomeMain.css';
 import selfImage from '../../images/apel05.png';
 import { Link } from 'react-router-dom';
-
 const HomeMain = () => {
 	return (
 		<div className="container">
