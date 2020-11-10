@@ -7,6 +7,7 @@ import Portfolios from '../Portfolios/Portfolios';
 import Blogs from '../Blogs/Blogs';
 import Home from '../Home/Home';
 import Footer from '../Footer/Footer';
+import NotFound from '../NotFound/NotFound';
 
 const Routes = () => {
 	return (
@@ -20,7 +21,7 @@ const Routes = () => {
 				<Route path="/blog" component={Blogs} />
 				<Route path="/contact" component={Contact} />
 				<Route path="*">
-					<h1>Not found the page</h1>
+					<NotFound></NotFound>
 				</Route>
 			</Switch>
 			<Footer></Footer>
