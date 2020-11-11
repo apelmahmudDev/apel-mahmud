@@ -31,10 +31,22 @@
     font-size: 1em;
 }
 
+.faAngleUp {
+    color: #00CF5D;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.footer-right-section {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
 
 @media screen and (max-width: 767px){
     .footer-area {
-        height: 100px;
+        height: 110px;
         padding: 20px 0;
     }
 
@@ -46,5 +58,10 @@
     .text-right {
         text-align: center !important;
     }
+
+    .footer-right-section {
+        justify-content: center;
+    }
+    
  }
  
