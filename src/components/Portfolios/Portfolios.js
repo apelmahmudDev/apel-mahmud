@@ -107,11 +107,29 @@ const Portfolios = () => {
 		{
 			id: 7,
 			name: 'Awesome Portfolio',
-			description: '',
+			description: 'A awesome looking portfolio',
 			applied: ['HTML', 'CSS', 'Bootstrap'],
 			img: 'https://i.imgur.com/tpOzCJu.png',
 			website: 'https://apelmahmuddev.github.io/project2-Portfolio-/',
 			gitHubLink: 'https://github.com/apelmahmudDev/project2-Portfolio-',
+		},
+		{
+			id: 8,
+			name: 'E-School',
+			description: 'This is an online educational platform. This platform provides educational courses among students.',
+			applied: ['HTML', 'CSS', 'Bootstrap'],
+			img: 'https://i.imgur.com/KUVlQqV.png',
+			website: 'https://apelmahmuddev.github.io/e-school/index.html',
+			gitHubLink: 'https://github.com/apelmahmudDev/e-school',
+		},
+		{
+			id: 9,
+			name: 'Hot Gadgets',
+			description: 'An E-commerce site. People can find phones, laptop,s and many varieties of products with help from this online e-commerce site.',
+			applied: ['HTML', 'CSS', 'Bootstrap'],
+			img: 'https://i.imgur.com/psABP4T.png',
+			website: 'https://apelmahmuddev.github.io/hot-gadgets/',
+			gitHubLink: 'https://github.com/apelmahmudDev/hot-gadgets',
 		},
 	];
 

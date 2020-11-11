@@ -6,7 +6,7 @@ import Headroom from 'react-headroom';
 
 const Navbar = () => {
     return (
-        <Headroom>
+        // <Headroom>
         <nav className="navbar navbar-expand-lg navbar-dark bg-default shadow">
             <div className="container">
                 <NavLink className="navbar-brand" to="/">
@@ -27,7 +27,7 @@ const Navbar = () => {
                 </div>
             </div>
         </nav>
-        </Headroom>
+        // </Headroom>
     );
 };
 
