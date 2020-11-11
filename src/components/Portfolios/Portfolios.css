@@ -56,3 +56,13 @@
     height: 26px;
     font-size: 14px;
 }
+
+.see-more-btn {
+    border: 1px solid #00CF5D;
+    color: #FFFFFF;
+}
+
+.see-more-btn:hover {
+    background: #00CF5D;
+    color: #FFFFFF;
+}

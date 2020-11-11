@@ -1,5 +1,50 @@
 .footer-area {
     background-color: #364F6B;
-    height: 80px;
+    height: 90px;
+    padding: 30px 0;
     box-shadow: 10px 0 20px rgba(0,0,0,.15);
 }
+
+.footer-icon-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.icon-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    margin: 0 10px;
+    border-radius: 50%;
+    border: 2px solid lightsteelblue;
+    transition: all .3s ease;
+}
+
+.icon-items:hover {
+    background-color: #233142;
+}
+
+.footer-icon {
+    color: #FFFFFF;
+    font-size: 1em;
+}
+
+
+@media screen and (max-width: 767px){
+    .footer-area {
+        height: 100px;
+        padding: 20px 0;
+    }
+
+    .footer-icon-container {
+        justify-content: center;
+        margin-bottom: 5px;
+    }
+
+    .text-right {
+        text-align: center !important;
+    }
+ }
+ 

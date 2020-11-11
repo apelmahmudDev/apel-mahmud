@@ -116,7 +116,8 @@ const Portfolios = () => {
 		{
 			id: 8,
 			name: 'E-School',
-			description: 'This is an online educational platform. This platform provides educational courses among students.',
+			description:
+				'This is an online educational platform. This platform provides educational courses among students.',
 			applied: ['HTML', 'CSS', 'Bootstrap'],
 			img: 'https://i.imgur.com/KUVlQqV.png',
 			website: 'https://apelmahmuddev.github.io/e-school/index.html',
@@ -125,7 +126,8 @@ const Portfolios = () => {
 		{
 			id: 9,
 			name: 'Hot Gadgets',
-			description: 'An E-commerce site. People can find phones, laptop,s and many varieties of products with help from this online e-commerce site.',
+			description:
+				'An E-commerce site. People can find phones, laptop,s and many varieties of products with help from this online e-commerce site.',
 			applied: ['HTML', 'CSS', 'Bootstrap'],
 			img: 'https://i.imgur.com/psABP4T.png',
 			website: 'https://apelmahmuddev.github.io/hot-gadgets/',
@@ -142,6 +144,15 @@ const Portfolios = () => {
 						<Portfolio project={project} key={project.id}></Portfolio>
 					))}
 				</div>
+			</div>
+			<div className="text-center my-4">
+				<a
+					href="https://github.com/apelmahmudDev"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					<button className="btn see-more-btn">See more</button>
+				</a>
 			</div>
 		</div>
 	);
