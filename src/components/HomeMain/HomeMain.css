@@ -58,6 +58,7 @@
 
     .home-left-section {
         margin-top: 5%;
+        margin-bottom: 10%;
         text-align: center;
     }
 
@@ -70,9 +71,9 @@
         text-align: center;
     }
 
-    .home-right-section img{
+    /* .home-right-section img{
         margin-top: 10%;
-    }
+    } */
 }
 
 
@@ -84,11 +85,11 @@
 
 @media screen and (max-width: 372px){
     .greet {
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
 
     .self-name {
-        font-size: 2em;
+        font-size: 2.3em;
     }
 
     .developer-intro {

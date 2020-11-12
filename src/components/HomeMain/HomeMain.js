@@ -6,6 +6,11 @@ const HomeMain = () => {
 	return (
 		<div className="container">
 			<div className="row d-flex align-items-center justify-content-center home-height">
+				<div className="col-md order-md-6 home-right-section">
+					<div data-aos="fade-left" data-aos-duration="1000">
+						<img src={selfImage} alt="" className="img-fluid w-75" />
+					</div>
+				</div>
 				<div className="col-md-6">
 					<div
 						className="home-left-section"
@@ -19,7 +24,7 @@ const HomeMain = () => {
 							<h1 className="self-name font-weight-bold">Apel Mahmud</h1>
 						</div>
 						<div className="mt-4">
-							<h3 className="brand-text-success developer-intro">
+							<h3 className="brand-text-success developer-intro font-weight-bold">
 								A Front End Developer
 							</h3>
 							<ul className="home-list">
@@ -36,11 +41,6 @@ const HomeMain = () => {
 								<button className="btn touch-btn">About me</button>
 							</Link>
 						</div>
-					</div>
-				</div>
-				<div className="col-md-6 home-right-section">
-					<div data-aos="fade-left" data-aos-duration="1000">
-						<img src={selfImage} alt="" className="img-fluid w-75" />
 					</div>
 				</div>
 			</div>
