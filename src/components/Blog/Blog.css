@@ -1,7 +1,6 @@
-.card {
+.blog-card {
     position: relative;
     overflow: hidden;
-    z-index: 5;
 }
 
 .blog-number {
@@ -11,9 +10,4 @@
     position: absolute;
     top: -20px;
     right: -20px;
-    z-index: -5;
-}
-
-.card img {
-    z-index: 5;
 }

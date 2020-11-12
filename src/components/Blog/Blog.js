@@ -9,7 +9,7 @@ import {
 
 const Blog = ({ blog }) => {
 	return (
-		<div className="card mb-3">
+		<div className="card mb-3 blog-card">
 			<div className="row no-gutters">
 				<div className="col-md-4">
 					<img src={blog.img} className="card-img" alt="" height="100%" />
