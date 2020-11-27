@@ -3,7 +3,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
 	faLinkedinIn,
 	faGithub,
-	faFacebookF,
+    faFacebookF,
+    faMediumM
 } from '@fortawesome/free-brands-svg-icons';
 
 //SOCIAL LINKS FOR ABOUT PAGE
@@ -207,5 +208,30 @@ export const blogs = [
         date: '24 Jul 2020',
         link: 'https://medium.com/@apelmahmudDev/use-firebase-with-react-983eca2a162b?sk=4ff1644f524f7c924143cec5698d5839',
         color: 'bg-success',
+    },
+];
+
+
+//SOCIAL LINKS FOR FOOTER
+export const footerLinks = [
+    {
+        id: 1,
+        link: 'https://www.linkedin.com/in/apelmahmuddev/',
+        icon: <FontAwesomeIcon className="footer-icon" icon={faLinkedinIn} />,
+    },
+    {
+        id: 2,
+        link: 'https://github.com/apelmahmudDev',
+        icon: <FontAwesomeIcon className="footer-icon" icon={faGithub} />,
+    },
+    {
+        id: 3,
+        link: 'https://web.facebook.com/apelmahmudDev/',
+        icon: <FontAwesomeIcon className="footer-icon" icon={faFacebookF} />,
+    },
+    {
+        id: 4,
+        link: 'https://medium.com/@apelmahmudDev',
+        icon: <FontAwesomeIcon className="footer-icon" icon={faMediumM} />,
     },
 ];
