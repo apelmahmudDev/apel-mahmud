@@ -1,21 +1,21 @@
 import React from 'react';
 import './About.css';
 import selfImage from '../../images/apel05.png';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {
-	faLinkedinIn,
-	faGithub,
-	faFacebookF,
-} from '@fortawesome/free-brands-svg-icons';
 import Typical from 'react-typical';
+import { socialLinks } from '../../MyData/Index';
+import { skills } from '../../MyData/Index';
 
 const About = () => {
+
+	const socialData = socialLinks;
+	const skikllData = skills;
+
 	return (
-		<div className="container about-wrapper mt-4 ">
+		<div className="container about-wrapper">
 			<div className="row">
 				<div className="col-md-6">
 					<div
-						className="intro-img intro-img"
+						className="intro-img intro-img mt-4"
 						data-aos="zoom-in"
 						data-aos-duration="800"
 					>
@@ -36,7 +36,7 @@ const About = () => {
 								'I Provide Clean code',
 								1000,
 								'I Provide Attractive animation.',
-								500
+								500,
 							]}
 							loop={Infinity}
 							wrapper="h6"
@@ -48,55 +48,25 @@ const About = () => {
 						node.js, express.js and MongoDB to Backend.
 					</p>
 					<div className="social-link mt-4">
-						<a
-							href="https://www.linkedin.com/in/apelmahmuddev/"
-							target="_blank"
-							rel="noopener noreferrer"
-						>
-							<div className="social-item">
-								<FontAwesomeIcon className="social-icon" icon={faLinkedinIn} />
-							</div>
-						</a>
-						<a
-							href="https://github.com/apelmahmudDev"
-							target="_blank"
-							rel="noopener noreferrer"
-						>
-							<div className="social-item">
-								<FontAwesomeIcon
-									className="social-icon likedin"
-									icon={faGithub}
-								/>
-							</div>
-						</a>
-						<a
-							href="https://web.facebook.com/apelmahmudDev/"
-							target="_blank"
-							rel="noopener noreferrer"
-						>
-							<div className="social-item">
-								<FontAwesomeIcon className="social-icon" icon={faFacebookF} />
-							</div>
-						</a>
+						{socialData.map((link, index) => (
+							<a href={link.link} target="_blank" rel="noopener noreferrer" key={index}>
+								<div className="social-item">{link.icon}</div>
+							</a>
+						))}
 					</div>
 				</div>
 				<div className="col-md-6">
 					<div className="skills-part-container">
-						<h5>My Skills</h5>
-						<div className="technology mt-3">
-							<span>HTML</span>
-							<span>CSS</span>
-							<span>Bootstrap</span>
-							<span>JavaScript</span>
-							<span>React.js</span>
-							<span>Node.js</span>
-							<span>Express.js</span>
-							<span>GitHub</span>
-							<span>NPM</span>
-							<span>VS Code</span>
-							<span>Firebase</span>
-							<span>REST API</span>
-						</div>
+						{skikllData.map((skill, index) => (
+							<div key={index}>
+								<h5 className="mt-5">{skill.title}</h5>
+								<div className="technology mt-3">
+									{skill.name.map((name, index) => (
+										<span key={index}>{name}</span>
+									))}
+								</div>
+							</div>
+						))}
 					</div>
 				</div>
 			</div>

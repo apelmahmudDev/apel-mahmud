@@ -13,7 +13,7 @@ const Navbar = () => {
 						<img src={logo} alt="" className="w-50 img-fluid" />
 					</NavLink>
 					<button
-						className="navbar-toggler collapsed"
+						className="navbar-toggler"
 						type="button"
 						data-toggle="collapse"
 						data-target="#navbarNavAltMarkup"

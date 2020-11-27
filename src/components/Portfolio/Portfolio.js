@@ -2,15 +2,8 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
-// import { useState } from 'react';
 
 const Portfolio = ({project}) => {
-	// const [isToggle, setIsToggle] = useState(false);
-
-	// const handleToggle = () => {
-	// 	setIsToggle(!isToggle);
-	// }
-
 	return (
 		<div className="col mb-4">
 			<div className="card h-100 portfolio-card">
@@ -38,7 +31,6 @@ const Portfolio = ({project}) => {
 				</div>
 			</div>
 		</div>
-		// <button onClick={handleToggle} className="btn btn-success my-5">{isToggle ? 'See more work': 'See less'}</button> */}
 	);
 };
 

@@ -3,8 +3,6 @@ second: color: #F9A828;
 third: color: #00CF5D
 main: background: #233142;
 
-* Use will be particle js.
-* image mover with cursor
 * Best font (google search)
 
 
