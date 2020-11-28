@@ -1,6 +1,6 @@
 # Apel Mahmud 🧑
 
-## My Portfolio website
+## My personal portfolio website
 
 I have introduced myself here.
 
