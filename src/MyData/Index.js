@@ -28,8 +28,9 @@ export const socialLinks = [
 
 //SKILL FOR ABOUT PAGE
 export const skills = [
-	{id: 1, title: 'My Skills', name: ['HTML','CSS','Bootstrap','JavaScript','React.js','Node.js','Express.js','MongoDB',]},
-	{id: 1, title: 'Tools', name: ['GitHub','NPM','VS Code','Firebase','REST API','Heroku','Chrome developer tool',]},
+    {id: 1, title: 'My Skills', name: ['HTML5','CSS3','Bootstrap','JavaScript','ES-6','React.js','Node.js','Express.js','MongoDB',]},
+    {id: 2, title: 'Familiar', name: ['Material-UI','React Bootstrap','Redux']},
+	{id: 3, title: 'Tools', name: ['GitHub','NPM','VS Code','Firebase','REST API','Heroku','Chrome developer tool',]},
 ];
 
 //PROJECTS FOR Portfolios
@@ -120,7 +121,6 @@ export const projects = [
             'Javascript',
             'React.js',
             'React router',
-            'Material UI',
             'Firebase',
         ],
         img: 'https://i.imgur.com/OvHTkWV.png',
@@ -133,7 +133,6 @@ export const projects = [
         description:
             'It is a simple and looking awesome single page application. Social Buddy has a lot of users. Every user has a post and comment.Post and comment loaded from API. ',
         applied: [
-            'Bootstrap',
             'Javascript',
             'React.js',
             'React router',

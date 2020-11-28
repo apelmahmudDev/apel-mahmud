@@ -14,7 +14,7 @@ const Footer = () => {
 					<div className="col-md-6">
 						<div className="footer-icon-container">
 							{footerLinksData.map((link, index) => (
-								<a href={link.link} target="_blank" rel="noopener noreferrer">
+								<a href={link.link} target="_blank" rel="noopener noreferrer" key={index}>
 									<div className="icon-items">{link.icon}</div>
 								</a>
 							))}
