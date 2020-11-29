@@ -20,7 +20,7 @@
     border: transparent;
     border-radius: 0;
     padding: 0;
-    border-bottom: 1px solid #FE3E57;
+    border-bottom: 1px solid lightsteelblue;
 }
 
 .form-group input::placeholder, .form-group textarea::placeholder {
@@ -36,8 +36,7 @@
 }
 
 .brand-btn {
-    background: #FE3E57;
-    border: 2px solid #FE3E57;
+    border: 2px solid lightsteelblue;
     font-weight: 500;
     text-transform: uppercase;
     color: #FFFFFF;
@@ -48,7 +47,7 @@
 }
 
 .brand-btn:hover {
-    background: none;
+    background: #00CF5D;
     color: #FFFFFF;
 }
 
