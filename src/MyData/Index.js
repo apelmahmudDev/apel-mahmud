@@ -6,6 +6,7 @@ import {
     faFacebookF,
     faMediumM
 } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope, faMapMarkerAlt, faPhoneAlt } from '@fortawesome/free-solid-svg-icons';
 
 //SOCIAL LINKS FOR ABOUT PAGE
 export const socialLinks = [
@@ -28,7 +29,7 @@ export const socialLinks = [
 
 //SKILL FOR ABOUT PAGE
 export const skills = [
-    {id: 1, title: 'My Skills', name: ['HTML5','CSS3','Bootstrap','JavaScript','ES-6','React.js','Node.js','Express.js','MongoDB',]},
+    {id: 1, title: 'My Skill Set', name: ['HTML5','CSS3','Bootstrap','JavaScript','ES-6','React.js','Node.js','Express.js','MongoDB',]},
     {id: 2, title: 'Familiar', name: ['Material-UI','React Bootstrap','Redux']},
 	{id: 3, title: 'Tools', name: ['GitHub','NPM','VS Code','Firebase','REST API','Heroku','Chrome developer tool',]},
 ];
@@ -210,6 +211,12 @@ export const blogs = [
     },
 ];
 
+//CONTACT INFORMATION FOR CONTACT
+export const cardInfo = [
+    {id:1, title: 'Gobindagonj, Gaibandha, Bangladesh', role: 'Home address', icon: <FontAwesomeIcon className="contact-icon" icon={faMapMarkerAlt} />},
+    {id:2, title: 'apelmahmud.dev@gmail.com', role: 'Mail address', icon: <FontAwesomeIcon className="contact-icon" icon={faEnvelope} />},
+    {id:3, title: '+880 1739-801-364', role: 'Personal Phone', icon: <FontAwesomeIcon className="contact-icon" icon={faPhoneAlt} />}
+]
 
 //SOCIAL LINKS FOR FOOTER
 export const footerLinks = [

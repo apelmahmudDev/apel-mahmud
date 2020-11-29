@@ -45,7 +45,7 @@ const About = () => {
 					<p>
 						I work fluently with HTML5, CSS3, Bootstrap, JavaScript, and ES6. I
 						use react.js to develop the front end part of the website and use
-						node.js, express.js and MongoDB to Backend.
+						node.js, express.js and MongoDB for to Backend.
 					</p>
 					<div className="social-link mt-4">
 						{socialData.map((link, index) => (
