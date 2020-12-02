@@ -95,6 +95,22 @@ export const projects = [
     },
     {
         id: 4,
+        name: 'Travel Guru',
+        description:
+            'Travel guru application using React javascript. In this here People can be booking any place with a fixed date pick. ',
+        technology: [
+            'Bootstrap',
+            'Javascript',
+            'React.js',
+            'React router',
+            'Firebase',
+        ],
+        img: 'https://i.imgur.com/OvHTkWV.png',
+        website: 'https://travel-guru0.web.app/',
+        gitHubLink: 'https://github.com/apelmahmudDev/travel-guru',
+    },
+    {
+        id: 5,
         name: 'Red Onion Restaurant',
         description:
             'A React.js based single page Red onion restaurant app. People can do order food from here and payment the food bill using an online payment system.',
@@ -111,22 +127,6 @@ export const projects = [
         img: 'https://i.imgur.com/5Savoq5.png',
         website: 'https://hot-onion-restaurant1.web.app/',
         gitHubLink: 'https://github.com/apelmahmudDev/hot-onion-restaurant',
-    },
-    {
-        id: 5,
-        name: 'Travel Guru',
-        description:
-            'Travel guru application using React javascript. In this here People can be booking any place with a fixed date pick. ',
-        technology: [
-            'Bootstrap',
-            'Javascript',
-            'React.js',
-            'React router',
-            'Firebase',
-        ],
-        img: 'https://i.imgur.com/OvHTkWV.png',
-        website: 'https://travel-guru0.web.app/',
-        gitHubLink: 'https://github.com/apelmahmudDev/travel-guru',
     },
     {
         id: 6,

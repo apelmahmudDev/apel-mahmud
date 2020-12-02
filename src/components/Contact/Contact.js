@@ -106,7 +106,7 @@ const Contact = () => {
 				</div>
 				<div className="col-md-5">
 					{cardData.map((info) => (
-						<div className="card contact-card">
+						<div className="card contact-card" key={info.id}>
 							<div className="card-body">
 								<h4 className="card-title mb-3">{info.title}</h4>
 								<div className="d-flex align-items-center">
