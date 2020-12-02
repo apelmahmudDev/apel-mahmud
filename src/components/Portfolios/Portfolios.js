@@ -5,7 +5,9 @@ import './Portfolios.css';
 
 const Portfolios = () => {
 	const projectData = projects;
-
+	window.scroll({
+		top: 0,
+	});
 	return (
 		<div className="container">
 			<h3 className="my-4">Portfolio</h3>

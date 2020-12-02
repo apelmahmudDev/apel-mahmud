@@ -1,6 +1,6 @@
 
 .portfolio-card img {
-    transition: 0.5s ease;
+    transition: 1s ease;
 }
 
 .portfolio-card:hover img {

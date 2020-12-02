@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
-const Portfolio = ({project}) => {
+const Featured = ({ project }) => {
 	return (
 		<div className="col mb-4">
 			<div className="card h-100 portfolio-card">
@@ -34,4 +34,4 @@ const Portfolio = ({project}) => {
 	);
 };
 
-export default Portfolio;
+export default Featured;

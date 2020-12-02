@@ -8,6 +8,9 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 
 const Blog = ({ blog }) => {
+	window.scroll({
+		top: 0,
+	});
 	return (
 		<div className="card mb-3 blog-card">
 			<div className="row no-gutters">

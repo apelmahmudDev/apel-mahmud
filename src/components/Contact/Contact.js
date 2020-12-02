@@ -33,7 +33,10 @@ const Contact = () => {
 			);
 		e.target.reset();
 	};
-
+	
+	window.scroll({
+		top: 0,
+	});
 	return (
 		<div className="container">
 			<div className="text-center my-5">
