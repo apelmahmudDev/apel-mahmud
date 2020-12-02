@@ -7,6 +7,11 @@ import emailjs from 'emailjs-com';
 import { cardInfo } from '../../MyData/Index';
 
 const Contact = () => {
+	
+	window.scroll({
+		top: 0,
+	});
+
 	const cardData = cardInfo;
 
 	const sendEmail = (e) => {
@@ -34,9 +39,6 @@ const Contact = () => {
 		e.target.reset();
 	};
 
-	window.scroll({
-		top: 0,
-	});
 	return (
 		<div className="container">
 			<div className="text-center my-5">

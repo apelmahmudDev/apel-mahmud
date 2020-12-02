@@ -6,6 +6,10 @@ import { socialLinks } from '../../MyData/Index';
 import { skills } from '../../MyData/Index';
 
 const About = () => {
+	
+	window.scroll({
+		top: 0,
+	});
 
 	const socialData = socialLinks;
 	const skikllData = skills;
