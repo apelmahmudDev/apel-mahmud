@@ -33,7 +33,7 @@ const Contact = () => {
 			);
 		e.target.reset();
 	};
-	
+
 	window.scroll({
 		top: 0,
 	});
@@ -41,7 +41,7 @@ const Contact = () => {
 		<div className="container">
 			<div className="text-center my-5">
 				<Typical
-					steps={['Let’s Talk', 1000]}
+					steps={['Get In Touch...', 1000]}
 					loop={Infinity}
 					wrapper="h1"
 					className="contact-title"

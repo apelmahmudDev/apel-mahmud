@@ -211,6 +211,17 @@ export const blogs = [
         link: 'https://medium.com/@apelmahmudDev/use-firebase-with-react-983eca2a162b?sk=4ff1644f524f7c924143cec5698d5839',
         color: 'bg-success',
     },
+    {
+        number: 3,
+        title: 'Use Firebase With React',
+        description: `Today I will show you, How to start to react project with firebase as a beginner. it is very simple to do that. Firebase is a mobile and web application development platform. it is for backend development and google is its organizer. `,
+        technology: ['React', 'firebase'],
+        img: 'https://miro.medium.com/max/875/1*duT8VkGS-rbBI8Fgx8dNZw.jpeg',
+        author: 'Apel Mahmud',
+        date: '24 Jul 2020',
+        link: 'https://medium.com/@apelmahmudDev/use-firebase-with-react-983eca2a162b?sk=4ff1644f524f7c924143cec5698d5839',
+        color: 'bg-success',
+    },
 ];
 
 //CONTACT INFORMATION FOR CONTACT

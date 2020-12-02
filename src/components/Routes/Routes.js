@@ -5,9 +5,9 @@ import Navbar from '../Navbar/Navbar';
 import Contact from '../Contact/Contact';
 import Portfolios from '../Portfolios/Portfolios';
 import Blogs from '../Blogs/Blogs';
-import Home from '../Home/Home';
 import Footer from '../Footer/Footer';
 import NotFound from '../NotFound/NotFound';
+import Home from '../Home/Home/Home';
 
 const Routes = () => {
 	return (
@@ -20,9 +20,7 @@ const Routes = () => {
 				<Route path="/portfolio" component={Portfolios} />
 				<Route path="/blog" component={Blogs} />
 				<Route path="/contact" component={Contact} />
-				<Route path="*">
-					<NotFound></NotFound>
-				</Route>
+				<Route path="*" component={NotFound} />
 			</Switch>
 			<Footer></Footer>
 		</>

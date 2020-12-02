@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { blogs } from '../../MyData/Index';
+import { blogs } from '../../../MyData/Index';
 import HomeArticle from '../HomeArticle/HomeArticle';
 
 const LatestArticles = () => {

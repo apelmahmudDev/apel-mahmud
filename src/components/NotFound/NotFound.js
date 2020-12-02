@@ -29,7 +29,8 @@ const NotFound = () => {
 				<img style={styles.sorryImage} src={sorryImage} alt="" />
 				<div>
 					<h4>404</h4>
-					<h6>Page Not Found</h6>
+					<h6 className="text-info">Page Not Found</h6>
+					<p className="text-info">We can't find the page you're looking for.</p>
 					<Link to="/" style={styles.backbtn}>
 						<button className="btn btn-success" style={{ fontWeight: 'bold' }}>
 							{' '}
