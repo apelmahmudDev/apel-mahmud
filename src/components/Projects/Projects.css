@@ -1,9 +1,9 @@
 
-.portfolio-card img {
+.project-card img {
     transition: 1s ease;
 }
 
-.portfolio-card:hover img {
+.project-card:hover img {
     border-radius: 5px;
     transform: scale(0.9);
 }

@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import './Footer.css';
-import { faAngleUp } from '@fortawesome/free-solid-svg-icons';
+import { faAngleUp, faStar } from '@fortawesome/free-solid-svg-icons';
 import { footerLinks } from '../../MyData/Index';
 
 const Footer = () => {
@@ -21,7 +21,7 @@ const Footer = () => {
 						</div>
 					</div>
 					<div className="col-md-6 footer-right-section">
-						<small>All rights reserved | {new Date().getFullYear()} | Created by me</small>
+						<small>All rights reserved | {new Date().getFullYear()} | Created by <big className="">Me</big></small>
 						<div className="scrolltop ml-3" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
 							<FontAwesomeIcon className="faAngleUp" icon={faAngleUp} />
 						</div>

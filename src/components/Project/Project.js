@@ -3,10 +3,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
-const Portfolio = ({project}) => {
+const Project = ({project}) => {
 	return (
 		<div className="col mb-4">
-			<div className="card h-100 portfolio-card">
+			<div className="card h-100 project-card">
 				<img src={project.img} className="card-img-top" alt="project" />
 				<div className="card-body">
 					<h5 className="card-title">{project.name}</h5>
@@ -34,4 +34,4 @@ const Portfolio = ({project}) => {
 	);
 };
 
-export default Portfolio;
+export default Project;

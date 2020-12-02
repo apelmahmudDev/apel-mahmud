@@ -6,7 +6,7 @@ const ParticlesShow = () => {
 		<div>
 			<Particles
 				style={{ position: 'absolute' }}
-				height="100%"
+				height="90%"
 				width="100%"
 				params={{
 					particles: {

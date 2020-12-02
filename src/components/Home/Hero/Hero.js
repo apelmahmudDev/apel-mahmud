@@ -5,21 +5,21 @@ import { Link } from 'react-router-dom';
 const HomeMain = () => {
 	return (
 		<div className="container">
-			<div className="row d-flex align-items-center justify-content-center home-height">
-				<div className="col-md order-md-6 home-right-section">
+			<div className="row d-flex align-items-center justify-content-center hero-height">
+				<div className="col-md order-md-6 hero-right-section">
 					<div data-aos="fade-left" data-aos-duration="1000">
 						<img src={selfImage} alt="" className="img-fluid w-75" />
 					</div>
 				</div>
 				<div className="col-md-6">
-					<div className="home-left-section" data-aos="fade-right" data-aos-duration="1000">
+					<div className="hero-left-section" data-aos="fade-right" data-aos-duration="1000">
 						<div>
 							<h3 className="brand-text-success font-weight-normal m-0 greet">Hello! I'm</h3>
 							<h1 className="self-name font-weight-bold">Apel Mahmud</h1>
 						</div>
 						<div className="mt-4">
 							<h3 className="brand-text-success developer-intro font-weight-bold">A Front End Developer</h3>
-							<ul className="home-list">
+							<ul className="hero-list">
 								<li>Web Devloper</li>
 							</ul>
 						</div>

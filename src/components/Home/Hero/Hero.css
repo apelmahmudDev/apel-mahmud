@@ -1,14 +1,14 @@
-.home-height {
-    height: 100vh;
+.hero-height {
+    height: 90vh;
 }
 
-.home-list {
+.hero-list {
     display: flex;
     padding-left: 15px;
     font-size: 16px;
 }
 
-.home-list li {
+.hero-list li {
     margin-right: 35px;
 }
 
@@ -36,7 +36,7 @@
     letter-spacing: 2px;
 }
 
-.home-right-section {
+.hero-right-section {
     text-align: right;
 }
 
@@ -51,29 +51,25 @@
 }
 
 @media screen and (max-width: 767px){
-    .home-height {
+    .hero-height {
         margin-top: 10%;
         height: 100%;
     }
 
-    .home-left-section {
+    .hero-left-section {
         margin-top: 5%;
         margin-bottom: 10%;
         text-align: center;
     }
 
-    .home-list {
+    .hero-list {
         display: flex;
         justify-content: center;
     }
 
-    .home-right-section {
+    .hero-right-section {
         text-align: center;
     }
-
-    /* .home-right-section img{
-        margin-top: 10%;
-    } */
 }
 
 

@@ -1,8 +1,4 @@
-.card {
-    border: none;
-    background: #07617D;
-}
-
+/* QUICK TOOLS START */
 .brand-bg-primary {
     background: #233142;
 }
@@ -21,4 +17,54 @@
 
 .brand-text-success {
     color: #00CF5D;
+}
+
+
+/* QUICK TOOLS START */
+.card {
+    border: none;
+    background: #07617D;
+}
+
+
+/* SECTION TITLE START */
+.section-title {
+    grid-template-columns: auto 1fr;
+    display: grid;
+    align-items: center;
+    grid-gap: 20px;
+    line-height: 0;
+}
+
+.link-details {
+    z-index: 100;
+}
+
+.link-details:before {
+    z-index: -1;
+    content: "";
+    display: block;
+    height: 1px;
+    width: 100%;
+    background-color: #364F6B;
+    position: relative;
+    right: 0;
+    top: 15px;
+}
+
+.link-details button {
+    border-color: #64ffda;
+    color: #64ffda;
+}
+
+@media (max-width: 992px) {
+    .section-title {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 767px) {
+    .section-title .text-right {
+        text-align: right !important;
+    }
 }

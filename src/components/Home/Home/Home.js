@@ -1,8 +1,8 @@
 import React from 'react';
-import FeaturedProjects from '../../FeaturedProjects/FeaturedProjects';
 import LatestArticles from '../LatestArticles/LatestArticles';
 import ContactMain from '../ContactMain/ContactMain';
 import Header from '../Header/Header';
+import FeaturedProjects from '../FeaturedProjects/FeaturedProjects';
 
 const Home = () => {
 	return (

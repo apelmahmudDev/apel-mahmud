@@ -7,19 +7,31 @@ const LatestArticles = () => {
 	const blogData = blogs;
 	return (
 		<section className="my-5">
+			{/* SECTION TITLE  START*/}
+			<div className="container my-5">
+				<div className="row d-flex flex-wrap">
+					<div className="col-md-8">
+						<div className="section-title">
+							<h3>Latest <span className="brand-text-success">Articles</span></h3>
+							<div className="text-right">
+								<Link to="/blog" className="link-details">
+									<button className="btn btn-sm btn-outline-success brand-bg-primary">
+										All articles
+									</button>
+								</Link>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			{/* SECTION TITLE  START*/}
 			<div className="container">
-				<h3 className="my-5 text-center">Latest Articles</h3>
 				<div data-aos="fade-up" data-aos-duration="1000">
 					<div className="row row-cols-1 row-cols-md-3">
 						{blogData.map((blog) => (
 							<HomeArticle blog={blog} key={blog.number}></HomeArticle>
 						))}
 					</div>
-				</div>
-				<div className="text-center my-4">
-					<Link to="/blog">
-						<button className="btn see-more-btn">See more</button>
-					</Link>
 				</div>
 			</div>
 		</section>
