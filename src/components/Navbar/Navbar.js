@@ -41,7 +41,7 @@ const Navbar = () => {
 								Let's Talk
 							</NavLink>
 							<a
-								href="https://drive.google.com/uc?export=download&id=1kYFRU5KaEIo1oq4ptclDA6Ep5AgnTxLC"
+								href="https://drive.google.com/u/0/uc?id=1aYmqC8TTrVc6FW1zT3Khj8KzloTlo3ZZ&export=download"
 								className="nav-link resume"
 							>
 								Resume
