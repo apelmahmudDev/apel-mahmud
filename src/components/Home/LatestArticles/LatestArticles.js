@@ -4,7 +4,7 @@ import { blogs } from '../../../MyData/Index';
 import HomeArticle from '../HomeArticle/HomeArticle';
 
 const LatestArticles = () => {
-	const blogData = blogs;
+	const blogData = blogs.slice(0, 3);
 	return (
 		<section className="my-5">
 			{/* SECTION TITLE  START*/}

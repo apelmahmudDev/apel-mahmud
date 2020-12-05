@@ -213,6 +213,17 @@ export const blogs = [
     },
     {
         number: 3,
+        title: 'HTML interview Questions',
+        description: `HTML stands Hypertext Markup Language which is of www (World Wide Web) primary language. Html used to create a web page and it rendered content on the browser.`,
+        technology: ['HTML'],
+        img: 'https://miro.medium.com/max/875/1*65OGwS-8ZJL3FZBbWCB9Pg.png',
+        author: 'Apel Mahmud',
+        date: '05 Dec 2020',
+        link: 'https://apelmahmuddev.medium.com/html-interview-questions-d494f769746c',
+        color: 'bg-danger',
+    },
+    {
+        number: 4,
         title: 'Use Firebase With React',
         description: `Today I will show you, How to start to react project with firebase as a beginner. it is very simple to do that. Firebase is a mobile and web application development platform. it is for backend development and google is its organizer. `,
         technology: ['React', 'firebase'],
