@@ -25,7 +25,7 @@ const HomeMain = () => {
 						</div>
 						<div className="mt-4">
 							<Link to="/contact">
-								<button className="btn touch-btn active-touch-btn">Touch me</button>
+								<button className="btn touch-btn active-touch-btn">Contact me</button>
 							</Link>
 							<Link to="/about">
 								<button className="btn touch-btn">About me</button>
