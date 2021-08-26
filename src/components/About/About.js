@@ -1,12 +1,10 @@
 import React from 'react';
-import './About.css';
-import selfImage from '../../images/apel05.png';
 import Typical from 'react-typical';
-import { socialLinks } from '../../MyData/Index';
-import { skills } from '../../MyData/Index';
+import selfImage from '../../images/apel05.png';
+import { skills, socialLinks } from '../../MyData/Index';
+import './About.css';
 
 const About = () => {
-	
 	window.scroll({
 		top: 0,
 	});
@@ -15,22 +13,18 @@ const About = () => {
 	const skikllData = skills;
 
 	return (
-		<div className="container about-wrapper">
-			<div className="row">
-				<div className="col-md-6">
-					<div
-						className="intro-img intro-img mt-4"
-						data-aos="zoom-in"
-						data-aos-duration="800"
-					>
-						<img src={selfImage} alt="" className="w-50" />
+		<div className='container about-wrapper'>
+			<div className='row'>
+				<div className='col-md-6'>
+					<div className='intro-img intro-img mt-4'>
+						<img src={selfImage} alt='' className='w-50' />
 					</div>
-					<div className="my-4">
-						<h6 className="brand-text-success">Hello! I'm</h6>
-						<h2 className="font-weight-bold">Apel Mahmud</h2>
-						<h6 className="brand-text-success">A Frontend Developer</h6>
+					<div className='my-4'>
+						<h6 className='brand-text-success'>Hello! I'm</h6>
+						<h2 className='font-weight-bold'>Apel Mahmud</h2>
+						<h6 className='brand-text-success'>A Frontend Developer</h6>
 					</div>
-					<div className="my-3">
+					<div className='my-3'>
 						<Typical
 							steps={[
 								'I Provide',
@@ -43,7 +37,7 @@ const About = () => {
 								500,
 							]}
 							loop={Infinity}
-							wrapper="h6"
+							wrapper='h6'
 						/>
 					</div>
 					<p>
@@ -51,20 +45,25 @@ const About = () => {
 						use react.js to develop the front end part of the website and use
 						node.js, express.js and MongoDB for to Backend.
 					</p>
-					<div className="social-link mt-4">
+					<div className='social-link mt-4'>
 						{socialData.map((link, index) => (
-							<a href={link.link} target="_blank" rel="noopener noreferrer" key={index}>
-								<div className="social-item">{link.icon}</div>
+							<a
+								href={link.link}
+								target='_blank'
+								rel='noopener noreferrer'
+								key={index}
+							>
+								<div className='social-item'>{link.icon}</div>
 							</a>
 						))}
 					</div>
 				</div>
-				<div className="col-md-6">
-					<div className="skills-part-container">
+				<div className='col-md-6'>
+					<div className='skills-part-container'>
 						{skikllData.map((skill, index) => (
 							<div key={index}>
-								<h5 className="mt-5">{skill.title}</h5>
-								<div className="technology mt-3">
+								<h5 className='mt-5'>{skill.title}</h5>
+								<div className='technology mt-3'>
 									{skill.name.map((name, index) => (
 										<span key={index}>{name}</span>
 									))}

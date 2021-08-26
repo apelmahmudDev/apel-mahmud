@@ -11,7 +11,7 @@ const Blogs = () => {
 	
 	return (
 		<div className="container">
-			<h3 className="my-4">This blog</h3>
+			<h3 className="my-4">Blogs</h3>
 			{blogData.map((blog) => (
 				<Blog blog={blog} key={blog.number}></Blog>
 			))}

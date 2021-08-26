@@ -26,12 +26,10 @@ const LatestArticles = () => {
 			</div>
 			{/* SECTION TITLE  START*/}
 			<div className="container">
-				<div data-aos="fade-up" data-aos-duration="1000">
-					<div className="row row-cols-1 row-cols-md-3">
-						{blogData.map((blog) => (
-							<HomeArticle blog={blog} key={blog.number}></HomeArticle>
-						))}
-					</div>
+				<div className="row row-cols-1 row-cols-md-3">
+					{blogData.map((blog) => (
+						<HomeArticle blog={blog} key={blog.number}></HomeArticle>
+					))}
 				</div>
 			</div>
 		</section>

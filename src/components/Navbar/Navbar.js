@@ -7,42 +7,42 @@ import Headroom from 'react-headroom';
 const Navbar = () => {
 	return (
 		<Headroom>
-			<nav className="navbar navbar-expand-lg navbar-dark bg-default shadow">
-				<div className="container">
-					<NavLink className="navbar-brand" to="/">
-						<img src={logo} alt="" className="w-50 img-fluid" />
+			<nav className='navbar navbar-expand-lg navbar-dark bg-default shadow'>
+				<div className='container'>
+					<NavLink className='navbar-brand' to='/'>
+						<img src={logo} alt='' className='w-50 img-fluid' />
 					</NavLink>
 					<button
-						className="navbar-toggler"
-						type="button"
-						data-toggle="collapse"
-						data-target="#navbarNavAltMarkup"
-						aria-controls="navbarNavAltMarkup"
-						aria-expanded="false"
-						aria-label="Toggle navigation"
+						className='navbar-toggler'
+						type='button'
+						data-toggle='collapse'
+						data-target='#navbarNavAltMarkup'
+						aria-controls='navbarNavAltMarkup'
+						aria-expanded='false'
+						aria-label='Toggle navigation'
 					>
-						<span className="navbar-toggler-icon"></span>
+						<span className='navbar-toggler-icon'></span>
 					</button>
-					<div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-						<div className="navbar-nav ml-auto">
-							<NavLink className="nav-link active" to="/home">
+					<div className='collapse navbar-collapse' id='navbarNavAltMarkup'>
+						<div className='navbar-nav ml-auto'>
+							<NavLink className='nav-link active' to='/home'>
 								Home
 							</NavLink>
-							<NavLink className="nav-link" to="/about">
+							<NavLink className='nav-link' to='/about'>
 								About
 							</NavLink>
-							<NavLink className="nav-link" to="/projects">
+							<NavLink className='nav-link' to='/projects'>
 								Projects
 							</NavLink>
-							<NavLink className="nav-link" to="/blog">
+							<NavLink className='nav-link' to='/blog'>
 								Blog
 							</NavLink>
-							<NavLink className="nav-link" to="/contact">
+							<NavLink className='nav-link' to='/contact'>
 								Let's Talk
 							</NavLink>
 							<a
-								href="https://drive.google.com/u/0/uc?id=11Ew57-dLjP8NXlJit6EOWVljrZsAv_uz&export=download"
-								className="nav-link resume"
+								href='https://drive.google.com/file/d/1AcYFwfkeXc5zpzi9VOr-tuB5OdC4uTKb/view?usp=sharing'
+								className='nav-link resume'
 							>
 								Resume
 							</a>

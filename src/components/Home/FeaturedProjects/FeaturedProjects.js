@@ -1,7 +1,7 @@
 import React from 'react';
-import Featured from '../Featured/Featured';
 import { Link } from 'react-router-dom';
 import { projects } from '../../../MyData/Index';
+import Featured from '../Featured/Featured';
 
 const FeaturedProjects = () => {
 	const projectData = projects.slice(0, 3);
@@ -27,7 +27,7 @@ const FeaturedProjects = () => {
 			</div>
 			{/* SECTION TITLE  START*/}
 			<div className="container">
-				<div data-aos="fade-up" data-aos-duration="1000">
+				<div>
 					<div className="row row-cols-1 row-cols-md-3">
 						{projectData.map((project) => (
 							<Featured project={project} key={project.id}></Featured>
