@@ -61,7 +61,7 @@ export const skills = [
 	{
 		id: 3,
 		title: "Familiar",
-		name: ["GraphQl", "Redux"],
+		name: ["GraphQL", "Redux"],
 	},
 	{
 		id: 4,
