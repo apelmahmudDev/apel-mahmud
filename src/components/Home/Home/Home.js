@@ -1,17 +1,22 @@
-import React from 'react';
-import LatestArticles from '../LatestArticles/LatestArticles';
-import ContactMain from '../ContactMain/ContactMain';
-import Header from '../Header/Header';
-import FeaturedProjects from '../FeaturedProjects/FeaturedProjects';
+import React, { Suspense, lazy } from "react";
+import ContactMain from "../ContactMain/ContactMain";
+import Header from "../Header/Header";
+import LoadingSpinner from "../../LoadingSpinner/LoadingSpinner";
+const FeaturedProjects = lazy(() =>
+	import("../FeaturedProjects/FeaturedProjects")
+);
+const LatestArticles = lazy(() => import("../LatestArticles/LatestArticles"));
 
 const Home = () => {
 	return (
-		<div>
+		<>
 			<Header></Header>
-			<FeaturedProjects></FeaturedProjects>
-			<LatestArticles></LatestArticles>
+			<Suspense fallback={<LoadingSpinner />}>
+				<FeaturedProjects></FeaturedProjects>
+				<LatestArticles></LatestArticles>
+			</Suspense>
 			<ContactMain></ContactMain>
-		</div>
+		</>
 	);
 };
 
