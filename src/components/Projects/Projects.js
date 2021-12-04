@@ -1,7 +1,7 @@
-import React from 'react';
-import { projects } from '../../MyData/Index';
-import Project from '../Project/Project';
-import './Projects.css';
+import React from "react";
+import { projects } from "../../MyData/Index";
+import Project from "../Project/Project";
+import "./Projects.css";
 
 const Projects = () => {
 	const projectData = projects;
@@ -11,7 +11,7 @@ const Projects = () => {
 	return (
 		<div className="container">
 			<h3 className="my-4">Projects</h3>
-			<div className="row row-cols-1 row-cols-md-3">
+			<div className="row row-cols-1 row-cols-md-2 row-cols-lg-3">
 				{projectData.map((project) => (
 					<Project project={project} key={project.id}></Project>
 				))}
