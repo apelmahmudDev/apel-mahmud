@@ -1,9 +1,9 @@
-import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
-const Project = ({project}) => {
+const Project = ({ project }) => {
 	return (
 		<div className="col mb-4">
 			<div className="card h-100 project-card">
@@ -12,19 +12,28 @@ const Project = ({project}) => {
 					<h5 className="card-title">{project.name}</h5>
 					<p className="card-text">{project.description}</p>
 					<div className="card-lang">
-						{project.technology.map((lang, index) => <span key={index}>{lang}</span>)}
+						{project.technology.map((lang, index) => (
+							<span key={index}>{lang}</span>
+						))}
 					</div>
 				</div>
 				<div className="card-footer">
 					<div className="card-btn-container">
-						<a href={project.gitHubLink} target="_blank" rel="noopener noreferrer">
+						<a
+							href={project.gitHubLink}
+							target="_blank"
+							rel="noopener noreferrer"
+						>
 							<button className="btn card-btn">
-								<FontAwesomeIcon className="card-btn-icon" icon={faGithub}/>
+								<FontAwesomeIcon className="card-btn-icon" icon={faGithub} />
 							</button>
 						</a>
 						<a href={project.website} target="_blank" rel="noopener noreferrer">
 							<button className="btn card-btn">
-								<FontAwesomeIcon className="card-btn-icon" icon={faExternalLinkAlt}/>
+								<FontAwesomeIcon
+									className="card-btn-icon"
+									icon={faExternalLinkAlt}
+								/>
 							</button>
 						</a>
 					</div>
